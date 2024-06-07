@@ -1,0 +1,23 @@
+@media(max-width: 375px){
+    .container{
+        width: 350px;
+        height: 650px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .perfil img{
+        border-radius: 100px;
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .redes .rede{
+        background-color: #333333;
+        margin: 5px;
+        height: 40px;
+        width: 250px;
+    }
+    
+}

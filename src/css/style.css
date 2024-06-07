@@ -1,0 +1,75 @@
+body{
+    background-color: #141414;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+.container{
+    background-color: #1F1F1F;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container .perfil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .perfil img{
+    border-radius: 100px;
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+}
+
+.container .perfil .nome{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container .perfil .cidade-pais{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c5f82a;
+}
+
+.container .perfil .profissao{
+    margin: 30px 0px 10px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes .rede{
+    background-color: #333333;
+    margin: 10px;
+    height: 50px;
+    width: 340px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rede:hover{
+    color: #1F1F1F;
+    background-color: #c5f82a;
+}
