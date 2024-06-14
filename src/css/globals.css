@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+:root{
+    /* cores de fundo */
+    --background-color: #141414;
+    --card-color: #1f1f1f;
+    --button-color: #333333;
+    /* cores de texto */
+    --default-text-color: #ffffff;
+    --subtitle-color: #c5f82a;
+
+}
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Inter';
+    color: #ffffff;
+    box-sizing: border-box;
+}
+

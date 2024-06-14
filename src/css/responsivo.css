@@ -1,23 +1,13 @@
-@media(max-width: 375px){
-    .container{
-        width: 350px;
-        height: 650px;
-        justify-content: center;
-        align-items: center;
+@media(max-width: 600px){
+    .card{
+        width: 327px;
+        height: 580px;
     }
 
-    .container .perfil img{
-        border-radius: 100px;
-        margin-top: 10px;
-        height: 80px;
-        width: 80px;
-    }
-
-    .redes .rede{
-        background-color: #333333;
-        margin: 5px;
-        height: 40px;
-        width: 250px;
-    }
-    
+    .card .redes .rede{
+        height: 45px;
+        width: 279px;
+        margin: 0px;
+        margin-top: 15px;
+        }
 }

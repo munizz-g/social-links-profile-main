@@ -1,75 +1,73 @@
-body{
-    background-color: #141414;
-    color: #ffffff;
+.card{
     display: flex;
+    background-color: var(--card-color);
+    width: 384px;
+    height: 613px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.card img{
+    border-radius: 50px;
+    height: 89px;
+    margin: 40px 148px 0px 148px;
+}
+
+.card .nome{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 28px 93px 0px 93px;
+    text-align: center;
+}
+
+.card .cidade-pais{
+    margin: 9px 107px 0px 107px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--subtitle-color);
+}
+
+.card .profissao{
+    margin: 28px 64px 0px 64px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.card .redes{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: 'Inter';
+    
+    
 }
 
-.container{
-    background-color: #1F1F1F;
-    width: 500px;
-    height: 800px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.container .perfil{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.container .perfil img{
-    border-radius: 100px;
-    margin-top: 50px;
-    height: 120px;
-    width: 120px;
-}
-
-.container .perfil .nome{
-    margin-top: 20px;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.container .perfil .cidade-pais{
-    margin-top: 12px;
-    font-size: 20px;
+.card .redes .rede{
+    background-color: var(--button-color);
+    height: 45px;
+    width: 304px;
     font-weight: 600;
-    color: #c5f82a;
-}
-
-.container .perfil .profissao{
-    margin: 30px 0px 10px 0px;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.redes {
-    display: flex;
-    flex-direction: column;
-}
-
-.redes .rede{
-    background-color: #333333;
-    margin: 10px;
-    height: 50px;
-    width: 340px;
-    border-radius: 10px;
+    font-size: 14px;
     text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
+    color: var(--default-text-color);
     text-align: center;
-    padding-top: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 14px;
+    margin: 17px 0px 0px 0px;
+    border-radius: 10px;
 }
 
-.rede:hover{
-    color: #1F1F1F;
-    background-color: #c5f82a;
+.card .redes .rede1{
+    margin-top: 24px;
+}
+
+.card .redes .rede:hover{
+    background-color: var(--subtitle-color);
+    color: black;
+    transition: 0.5s;
 }
