@@ -5,7 +5,8 @@ Visão geral
 
 - [Solução e código](https://github.com/munizz-g/social-links-profile-main)
 - [Site ativo](https://munizz-g.github.io/social-links-profile-main/)
-- 
+
+
 Durante o desenvolvimento do desafio do Cartão de visualização de links sociais principais no Frontend Mentor, segui um processo estruturado para criar uma solução eficiente e bem projetada. Aqui estão os passos que segui:
 
 1 - Análise do Design:
