@@ -1,7 +1,7 @@
 Esta é a minha solução para o desafio do cartão de visualização de links sociais principais no Frontend Mentor. Durante o desenvolvimento, enfrentei desafios e me dediquei para superá-los. Espero que gostem do resultado! Estou aberto a sugestões de melhorias e feedback. 🚀🌟
 
 Visão geral
-![alt text](image.png)
+![alt text](src/images/image-readme.png)
 
 Solução e códigoNMAODKNAS
 Site ativo
